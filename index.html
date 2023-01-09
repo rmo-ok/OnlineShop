@@ -1,0 +1,1991 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="Css/swiper.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="Css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body class="container-fluid">
+
+
+
+    <div id="header" class="container-fluid">
+
+
+        <div class="c-topbanner  container-fluid d-block col-xl-12" style="display:flex;">
+            <img src="Images/topbanner.gif" style="width:100%;" />
+        </div>
+
+
+
+
+
+        <div class="row d-lg-none d-md-none d-sm-block" style="display:unset">
+            <div class="c-minheader">
+                <a class="c-minheader_minnavbar col-sm-3 text-right">
+                    <div class="minnavbar">
+                        <span></span>
+                    </div>
+                </a>
+                <div class="c-minilogo col-sm-6 text-center" style="">
+                    <a href="#" class="c-logo">
+
+                    </a>
+                </div>
+                <div class="col-sm-3 text-left" style="padding-right:26px">
+                    <a class="c-question_header" href="#">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex flex-nowrap">
+
+            <div id="logosearch" class="col-lg-8 col-md-8 ">
+                <a href="#" class="c-logo d-none  d-lg-block   d-md-block">
+
+                </a>
+                <div class="col-lg-8 col-sm-9  col-md-8">
+                    <div class="input-group">
+                        <input type="text" class="c-input js-input" placeholder="جستجو...">
+                        <span class="input-group-btn">
+                            <button class="c-btn_search" type="button"></button>
+                        </span>
+
+                        <div class="c-searh_result js-searh_result" style="display:none;">
+                            <div class="row c-result_img">
+                                <a href="#">
+                                    <img src="Images/searchresult.jpg" />
+                                </a>
+                            </div>
+                            <div class="c-last_search text-right">
+                                <button class="c-btn_lastsearch-delete js-btn_lastsearch-delete"></button>
+                                <span>آخرین جستجو های شما</span>
+                                <ul class="c-last_search-list">
+                                    <li><a href="#">کفش کتونی</a></li>
+                                    <li><a href="#">گوشی سامسونگ</a></li>
+                                    <li><a href="#">اپل</a></li>
+                                    <li><a href="#">ایرپاد</a></li>
+                                    <li><a href="#">یخچال</a></li>
+                                    <li><a href="#">تلوزیون</a></li>
+                                    <li><a href="#">لپتاپ</a></li>
+                                    <li><a href="#">دوربین</a></li>
+                                    <li><a href="#">شلوار</a></li>
+                                    <li><a href="#">هودی</a></li>
+                                </ul>
+                            </div>
+                            <div class="c-popular_search  text-right">
+                                <span>جستجو‌های پرطرفدار</span>
+                                <ul class="c-popular_search-list">
+                                    <li><a href="#">se2022</a></li>
+                                    <li><a href="#">se2022</a></li>
+                                    <li><a href="#">se2022</a></li>
+                                    <li><a href="#">se2022</a></li>
+                                    <li><a href="#">کفش کتونی</a></li>
+                                    <li><a href="#">se2022</a></li>
+                                    <li><a href="#">se2022</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+
+            </div>
+            <div class="flex-md-nowrap c-cartandetrance  col-lg-4 col-md-4 d-none d-lg-block d-md-block float-left">
+                <div class="row c-cartandetrance_row ">
+                    <div class="c-headerenterance_cart">
+                        <a class="btn c-registerenter">
+                            <span>ثبت نام</span>
+                            <div class="c-divider"></div>
+                            <span>ورود</span>
+                        </a>
+                        <div class="c-dividercart float-left "></div>
+                        <a href="#" class="cart"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-cartandetrance_minsize  d-sm-block d-lg-none d-md-none d-xs-block">
+                <a class="c-btn_entrance" href="#">ورود</a>
+                <a class="c-cart" href="#"></a>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="container-fluid d-lg-none d-md-none d-sm-block" style="border:1px solid #f1f1f1;margin-top:7px;margin-bottom:7px"></div>-->
+
+    <div class="row c-location c-minilocation d-sm-block d-lg-none d-md-none float-right">
+        <span class="c-select_city">لطفا شهر خود را انتخاب کنید</span>
+        <button class="c-location_icon c-minilocation_icon"></button>
+        <button class="c-btn_miniselectcity"></button>
+    </div>
+
+    <div id="navbar" class="row container-fluid d-none d-lg-block d-md-block js-navbar" style="background-color:white">
+        <ul class="c-navbar_list">
+            <li><a href="#">دسته‌بندی کالاها</a></li>
+            <li><a href="#">سوپرمارکت</a></li>
+            <li><a href="#">پرفروش‌ترین‌ها</a></li>
+            <li><a href="#">تخفیف‌ها و پیشنهادها</a></li>
+            <li><a href="#">شگفت‌انگیزها</a></li>
+            <li><a href="#"> سوالی دارید؟</a></li>
+            <li><a href="#">فروشنده شوید!</a></li>
+        </ul>
+        <div class="c-location d-sm-none d-lg-block d-md-block">
+            <span class="c-select_city">لطفا شهر خود را انتخاب کنید</span>
+            <button class="c-location_icon"></button>
+        </div>
+    </div>
+    <!-- ---------------------------------- -->
+    <div class="swiper c-mainslider js-mainswiper container-fluid">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img class="d-block w-100" src="Images/mainslider/1.jpg" alt="1">
+            </div>
+            <div class="swiper-slide">
+                <img class="d-block w-100" src="Images/mainslider/2.jpg" alt="2">
+            </div>
+            <div class="swiper-slide">
+                <img class="d-block w-100" src="Images/mainslider/3.jpg" alt="3">
+            </div>
+            <div class="swiper-slide">
+                <img class="d-block w-100" src="Images/mainslider/4.jpg" alt="4">
+            </div>
+            <div class="swiper-slide">
+                <img class="d-block w-100" src="Images/mainslider/5.jpg" alt="5">
+            </div>
+            <div class="swiper-slide">
+                <img class="d-block w-100" src="Images/mainslider/6.jpg" alt="6">
+            </div>
+            <div class="swiper-slide">
+                <img class="d-block w-100" src="Images/mainslider/7.jpg" alt="7">
+            </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-next js-swiper-button-next"></div>
+        <div class="swiper-button-prev js-swiper-button-prev"></div>
+
+
+        <!-- If we need scrollbar -->
+    </div>
+
+    <div class="container">
+        <div class="c-container_icon">
+            <div class="firsthalf row col-lg-6 col-md-6 col-sm-12">
+                <a href="#"><img src="Images/icons/1.png"><span class="c-icon_span">دیجی‌جت</span></a>
+                <a href="#"><img src="Images/icons/2.png"><span class="c-icon_span">محصولات آرایشی</span></a>
+                <a href="#"><img src="Images/icons/3.png"><span class="c-icon_span">دیجی‌پی</span></a>
+                <a href="#"><img src="Images/icons/4.png"><span class="c-icon_span">دیجی‌مهر</span></a>
+            </div>
+            <div class="secondhalf row js-secondhalf col-lg-6 col-md-6 col-sm-12">
+                <a href="#"><img src="Images/icons/5.png"><span class="c-icon_span">سورپرایز</span></a>
+                <a href="#"><img src="Images/icons/6.png"><span class="c-icon_span">ماموریت‌ها</span></a>
+                <a href="#"><img src="Images/icons/7.png"><span class="c-icon_span">پوشاک مشکی</span></a>
+                <a href="#" class="btn c-btn_more-icon"></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="c-swiper wonderswiper">
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper c-swiper-wrapper ">
+                <!-- Slides -->
+                <div class="c-slide swiper-slide">
+                    <a class="c-wonder">
+                        <div class="c-wonder_topbar"><img src="Images/wonderslider/topbar.png" /></div>
+                        <img class="d-block w-100 c-wonder_img" src="Images/wonderslider/General.png" alt="1 slide">
+                        <span class="c-all_wonder">مشاهده همه</span>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/1.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/2.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/3.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/4.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/5.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/6.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+                <div class="c-slide swiper-slide">
+                    <a>
+                        <img class="d-block w-100" src="Images/wonderslider/7.jpg" alt="1 slide">
+                        <div class="c-information">
+                            <div class="c-information_newprice">۵۱۹,۰۰۰ تومان </div>
+                            <div class="c-information_discount">۶۵%</div>
+                        </div>
+                        <div class="c-information_oldprice"><del>۱۴۰۰۰۰</del></div>
+                    </a>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <!--<div class="swiper-pagination"></div>-->
+            <!-- If we need navigation buttons -->
+            <div class="btn-next js-btn_next"></div>
+            <div class="btn-prev js-btn_prev"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="c-wonder_supermarket d-lg-block d-md-block d-sm-none col-xs-none" style="margin-bottom:15px">
+            <a class="c-wonder_supermarket-container">
+                <div class="c-wonder_supermarket_righside col-lg-6 col-md-6">
+                    <img class="c-wonder_supermarket_img" style="width:60px;height:60px" src="Images/wondersupermarket/fresh.png" />
+                    <img class="c-wondersupermarket_svg" style="width:162px;" src="Images/wondersupermarket/fresh.svg" />
+                    <span class="c-wonder_supermarket-discount d-lg-block d-md-block d-sm-none">تا ۲۲% تخفیف</span>
+
+                </div>
+                <div class="c-wonder_supermarket_leftside">
+                    <div class="c-wonder_supermaket-product col-lg-6 col-md-6">
+                        <div class="c-wonder_supermaket-product_container">
+                            <div class="c-wonder_supermaket-product_item c-wonder_supermaket-product_item1"></div>
+                            <span class="c-wonder_supermarket-span">%۱۸</span>
+                        </div>
+                        <div class="c-wonder_supermaket-product_container">
+                            <div class="c-wonder_supermaket-product_item c-wonder_supermaket-product_item2"></div>
+                            <span class="c-wonder_supermarket-span">۲۰%</span>
+                        </div>
+                        <div class="c-wonder_supermaket-product_container">
+                            <div class="c-wonder_supermaket-product_item c-wonder_supermaket-product_item3"></div>
+                            <span class="c-wonder_supermarket-span"> ۱۰% </span>
+                        </div>
+                        <div class="c-wonder_supermaket-product_container">
+                            <div class="c-wonder_supermaket-product_item c-wonder_supermaket-product_item4"></div>
+                            <span class="c-wonder_supermarket-span">۱۴%</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="c-advertinsing js-advertinsing">
+            <a class="c-advertinsing_item js-advertinsing_item"><img src="Images/advertising/1.jpg" /></a>
+            <a class="c-advertinsing_item js-advertinsing_item"><img src="Images/advertising/2.jpg" /></a>
+            <a class="c-advertinsing_item js-advertinsing_item"> <img src="Images/advertising/3.jpg" /></a>
+            <a class="c-advertinsing_item js-advertinsing_item"> <img src="Images/advertising/4.jpg" /></a>
+        </div>
+    </div>
+
+    <div class="container c-category">
+        <div class="c-category_container">
+            <div class="c-category_header text-center">دسته‌بندی‌های دیجی‌کالا</div>
+            <div class="c-category_items">
+
+                <a class="c-category_item js-category_item c-category_ c-category_item1">
+                    <span>کالای دیجیتال</span>
+                </a>
+                <a class="c-category_item js-category_item c-category_item2">
+                    <span>خودرو، ابزار و تجهیزات صنعتی</span>
+                </a>
+                <a class="c-category_item js-category_item c-category_item3">
+                    <span>مد و پوشاک</span>
+                </a>
+                <a class="c-category_item js-category_item c-category_item4">
+                    <span>کالاهای سوپرمارکتی</span>
+                </a>
+                <a class="c-category_item js-category_item c-category_item5">
+                    <span>اسباب‌ بازی، کودک و نوزاد</span>
+                </a>
+
+
+                <a class="c-category_item js-category_item c-category_item6">
+                    <span>محصولات بومی و محلی</span>
+                </a>
+                <a class="c-category_item js-category_item c-category_item7">
+                    <span>زیبایی و سلامت</span>
+                </a>
+                <a class="c-category_item js-category_item c-category_item8">
+                    <span>خانه و آشپزخانه</span>
+                </a>
+                <a class="c-category_item js-category_item c-category_item9">
+                    <span>کتاب، لوازم تحریر و هنر</span>
+                </a>
+                <a class="c-category_item js-category_item c-category_item10">
+                    <span>ورزش و سفر</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="margin-bottom:40px;margin-top:15px;">
+        <div class="c-advertinsing_banner">
+            <img src="Images/advertising/5.jpg" />
+            <img src="Images/advertising/6.gif" />
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="swiper  c-recommend_swiper js-recommend_swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper c-swiper_wrapper-recommend">
+                <!-- Slides -->
+                <div class="swiper-slide swiper-recommend_slide">
+                    <div class="swiper-recommend_slide-container">
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-mobile">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">گوشی موبایل</h4>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-accesorrymobile">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">کیف و کاور گوشی</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-recommend_slide">
+                    <div class="swiper-recommend_slide-container">
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-headphone">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">هدفون، هدست و...</h4>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-chargercabel">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">کابل شارژ و مبدل</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-recommend_slide">
+                    <div class="swiper-recommend_slide-container">
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-chargertabletmoblie">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">شارژر تبلت و موبایل</h4>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-laptop">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">لپتاپ و الترابوک</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-recommend_slide">
+                    <div class="swiper-recommend_slide-container">
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-smartwatch">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">ساعت هوشمند</h4>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-powerbank">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">پاوربانک (شارژر همراه)</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-recommend_slide">
+                    <div class="swiper-recommend_slide-container">
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-speaker">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">اسپیکر (بلندگو)</h4>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-homeconsole">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">کنسول خانگی</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-recommend_slide">
+                    <div class="swiper-recommend_slide-container">
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-mensocks">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">جوراب مردانه</h4>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-tablet">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">تبلت</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-recommend_slide">
+                    <div class="swiper-recommend_slide-container">
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-bed">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">تخت خواب</h4>
+                            </div>
+                        </a>
+                        <a>
+                            <div class="c-recommend_product">
+                                <div class="c-recommend_product_circle">
+                                    <div class="c-recommend_product_img c-recommend_product_img-mobileholder">
+                                    </div>
+                                </div>
+                                <h4 class="c-recommend_title">پایه نگهدارنده گوشی</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <!-- If we need navigation buttons -->
+            <div class="c-btn_recommend-next js-btn_recommend-next"></div>
+            <div class="c-btn_recommend-prev js-btn_recommend-prev"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class=" c-brand_container">
+            <div class="c-brand_header text-center"><span>محبوب‌ترین برندها</span></div>
+            <!-- Slider main container -->
+            <div class="swiper  c-brand_swiper js-brand_swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper c-brand_wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide c-swiper_brand-slide" style="float:right">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/1.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/2.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/3.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/4.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/5.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/6.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/7.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/8.jpg" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/9.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/10.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/11.png" />
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/12.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/13.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/14.jpg" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/15.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/16.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/17.png" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide c-swiper_brand-slide">
+                        <a class="c-brand_img-container">
+                            <div class="c-brand_img">
+                                <img src="Images/brandslider/18.png" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="c-brand_next js-brand_next"></div>
+                <div class="c-brand_prev js-brand_prev"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="c-discount_banner-container">
+            <div class="c-discount_banner js-discount_banner">
+                <a class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="Images/discountbanner/1.jpg" />
+                </a>
+                <a class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="Images/discountbanner/2.jpg" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="c-products js-products">
+            <div class="c-products_items js-products_items d-flex flex-sm-wrap">
+                <div class="c-products_item js-products_item col-lg-3 col-md-3 col-sm-12">
+                    <div class="c-products_item-header">
+                        <div class="c-product_name">گوشی موبایل</div>
+                        <div class="c-product_accordin-to">بر اساس بازدیدهای شما</div>
+                    </div>
+                    <a class="c-product_container js-product_container">
+                        <div class="c-product_container-images js-product_container-images">
+                            <div>
+                                <img src="Images/products/1.jpg" class="js-product_img img-responsive" />
+                            </div>
+                            <div>
+                                <img src="Images/products/2.jpg" class="js-product_img img-responsive" />
+                            </div>
+                        </div>
+                        <div class="c-product_container-images js-product_container-images">
+                            <div>
+                                <img src="Images/products/3.jpg" class="js-product_img img-responsive" />
+                            </div>
+                            <div>
+                                <img src="Images/products/4.jpg" class="js-product_img img-responsive" />
+                            </div>
+                        </div>
+                    </a>
+                    <span class="c-products_seeall">مشاهده</span>
+                </div>
+
+                <div class="c-products_item js-products_item col-lg-3 col-md-3 col-sm-12">
+                    <div class="c-products_item-header">
+                        <div class="c-product_name">
+                            کیف و کاور گوشی
+                        </div>
+                        <div class="c-product_accordin-to">بر اساس بازدیدهای شما</div>
+                    </div>
+                    <a class="c-product_container js-product_container">
+                        <div class="c-product_container-images js-product_container-images">
+                            <div>
+                                <img src="Images/products/5.jpg" class="js-product_img img-responsive" />
+                            </div>
+                            <div>
+                                <img src="Images/products/6.jpg" class="js-product_img img-responsive" />
+                            </div>
+                        </div>
+                        <div class="c-product_container-images js-product_container-images">
+                            <div>
+                                <img src="Images/products/7.jpg" class="js-product_img img-responsive" />
+                            </div>
+                            <div>
+                                <img src="Images/products/8.jpg" class="js-product_img img-responsive" />
+                            </div>
+                        </div>
+                    </a>
+                    <span class="c-products_seeall">مشاهده</span>
+                </div>
+                <div class="c-products_item js-products_item col-lg-3 col-md-3 col-sm-12">
+                    <div class="c-products_item-header">
+                        <div class="c-product_name">هدفون، هدست و هندزفری</div>
+                        <div class="c-product_accordin-to">بر اساس بازدیدهای شما</div>
+                    </div>
+                    <a class="c-product_container js-product_container">
+                        <div class="c-product_container-images js-product_container-images">
+                            <div>
+                                <img src="Images/products/9.jpg" class="js-product_img img-responsive" />
+                            </div>
+                            <div>
+                                <img src="Images/products/10.jpg" class="js-product_img img-responsive" />
+                            </div>
+                        </div>
+                        <div class="c-product_container-images js-product_container-images">
+                            <div>
+                                <img src="Images/products/11.jpg" class="js-product_img img-responsive" />
+                            </div>
+                            <div>
+                                <img src="Images/products/12.jpg" class="js-product_img img-responsive" />
+                            </div>
+                        </div>
+                    </a>
+                    <span class="c-products_seeall">مشاهده</span>
+                </div>
+                <div class="c-products_item js-products_item col-lg-3 col-md-3 col-sm-12">
+                    <div class="c-products_item-header">
+                        <div class="c-product_name">
+                            ساعت هوشمند
+                        </div>
+                        <div class="c-product_accordin-to">بر اساس بازدیدهای شما</div>
+                    </div>
+                    <a class="c-product_container js-product_container">
+                        <div class="c-product_container-images js-product_container-images">
+                            <div>
+                                <img src="Images/products/13.jpg" class="js-product_img img-responsive" />
+                            </div>
+                            <div>
+                                <img src="Images/products/14.jpg" class="js-product_img img-responsive" />
+                            </div>
+                        </div>
+                        <div class="c-product_container-images js-product_container-images">
+                            <div>
+                                <img src="Images/products/15.jpg" class="img-responsive" />
+                            </div>
+                            <div>
+                                <img src="Images/products/16.jpg" class="img-responsive" />
+                            </div>
+                        </div>
+                    </a>
+                    <span class="c-products_seeall">مشاهده</span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container c-send_service js-send_service">
+        <div class="row c-quick_send-container">
+            <div class="c-special_service col-lg-4 col-md-4">
+                <div class="c-special_service_container">
+                    <a class="c-special_service_icon">
+                        <img src="Images/quicksend/digiplus-logo.svg" />
+                    </a>
+                    <div class="c-special_service-title">
+                        خدمات ویژه برای اعضای دیجی‌پلاس
+                    </div>
+                    <a class="c-special_service-join">عضویت</a>
+                </div>
+            </div>
+            <div class="c-quick_send col-lg-8 col-md-8">
+                <div class="c-quick_send-header">
+                    <div class="c-quick_send-title">ارسال فوری</div>
+                    <a class="c-quick_send-seeall">مشاهده همه</a>
+                </div>
+                <div class="c-quick_send-content">
+                    <div class="row c-quick_send-row">
+                        <a class="c-quick_send-product js-quick_send-product col-lg-2 col-md-2 col-sm-2">
+                            <div>
+                                <img src="Images/quicksend/13.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product col-lg-2 col-md-2 col-sm-2 js-quick_send-product">
+                            <div>
+                                <img src="Images/quicksend/1.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product col-lg-2 col-md-2 col-sm-2 js-quick_send-product">
+                            <div>
+                                <img src="Images/quicksend/2.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product col-lg-2 col-md-2 col-sm-2 js-quick_send-product  d-none d-lg-block d-md-block ">
+                            <div>
+                                <img src="Images/quicksend/3.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product js-quick_send-product col-lg-2  d-none d-lg-block d-sm-block ">
+                            <div>
+                                <img src="Images/quicksend/4.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product js-quick_send-product col-lg-2    d-none d-lg-block ">
+                            <div>
+                                <img src="Images/quicksend/5.jpg" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row c-quick_send-row">
+                        <a class="c-quick_send-product col-lg-2 col-md-2 col-sm-2 js-quick_send-product">
+                            <div>
+                                <img src="Images/quicksend/6.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product col-lg-2 col-md-2 col-sm-2 js-quick_send-product">
+                            <div>
+                                <img src="Images/quicksend/7.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product col-lg-2 col-md-2 col-sm-2 js-quick_send-product">
+                            <div>
+                                <img src="Images/quicksend/8.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product col-lg-2 col-md-2 col-sm-2 js-quick_send-product  d-none d-lg-block d-md-block">
+                            <div>
+                                <img src="Images/quicksend/9.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product js-quick_send-product col-lg-2   d-none d-lg-block d-sm-block ">
+                            <div>
+                                <img src="Images/quicksend/10.jpg" />
+                            </div>
+                        </a>
+                        <a class="c-quick_send-product js-quick_send-product col-lg-2  d-none d-lg-block ">
+                            <div>
+                                <img src="Images/quicksend/11.jpg" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container c-digiclub_container">
+        <div class="c-digiclub">
+            <div class="c-digiclub_logo">
+                <img src="Images/digiclub/digiclub-logo-white.svg" />
+            </div>
+            <div class="c-lottory_mission-prices">
+                <a class="c-lmp c-lottory">
+                    <div>گردونه شانس</div>
+                    <div class="c-lmp_img">
+                        <img src="Images/digiclub/1.png" />
+                    </div>
+                </a>
+                <a class="c-lmp c-mission">
+                    <div>ماموریت‌ها </div>
+                    <div class="c-lmp_img">
+                        <img src="Images/digiclub/2.png" />
+                    </div>
+                </a>
+                <a class="c-lmp c-mission">
+                    <div>جایزه‌ها </div>
+                    <div class="c-lmp_img">
+                        <img src="Images/digiclub/3.png" />
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container c-some_product-container">
+        <div class="c-some_product">
+            <div class="c-some_product-slide col-lg-3 col-md-3 col-sm-12">
+                <div class="c-products_item-header">
+                    <div class="c-product_name">آشنایی با فنون</div>
+                    <div class="c-product_accordin-to">بر اساس بازدیدهای شما</div>
+                </div>
+                <div class="c-some_product-slide_container">
+                    <div class="row">
+                        <a class="c-some_product-img col-sm-6">
+                            <img src="Images/someproduct/1.jpg" />
+                        </a>
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/2.jpg" />
+                        </a>
+                    </div>
+                    <div class="row c-bottom_half">
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/3.jpg" />
+                        </a>
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/4.jpg" />
+                        </a>
+                    </div>
+                    <span class="c-products_seeall">مشاهده</span>
+                </div>
+            </div>
+
+            <div class="c-some_product-slide col-lg-3 col-md-3 col-sm-12">
+                <div class="c-products_item-header">
+                    <div class="c-product_name">کفش ورزشی مردانه</div>
+                    <div class="c-product_accordin-to">بر اساس بازدیدهای شما</div>
+                </div>
+                <div class="c-some_product-slide_container">
+                    <div class="row">
+                        <a class="c-some_product-img col-sm-6">
+                            <img src="Images/someproduct/5.jpg" />
+                        </a>
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/6.jpg" />
+                        </a>
+                    </div>
+                    <div class="row c-bottom_half">
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/7.jpg" />
+                        </a>
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/8.jpg" />
+                        </a>
+                    </div>
+                    <span class="c-products_seeall">مشاهده</span>
+                </div>
+            </div>
+
+            <div class="c-some_product-slide col-lg-3 col-md-3 col-sm-12">
+                <div class="c-products_item-header">
+                    <div class="c-product_name">لپ تاپ و الترابوک</div>
+                    <div class="c-product_accordin-to">بر اساس بازدیدهای شما</div>
+                </div>
+                <div class="c-some_product-slide_container">
+                    <div class="row">
+                        <a class="c-some_product-img col-sm-6">
+                            <img src="Images/someproduct/9.jpg" />
+                        </a>
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/10.jpg" />
+                        </a>
+                    </div>
+                    <div class="row c-bottom_half">
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/11.jpg" />
+                        </a>
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/12.jpg" />
+                        </a>
+                    </div>
+                    <span class="c-products_seeall">مشاهده</span>
+                </div>
+            </div>
+
+
+            <div class="c-some_product-slide col-lg-3 col-md-3 col-sm-12">
+                <div class="c-products_item-header">
+                    <div class="c-product_name">ماشین</div>
+                    <div class="c-product_accordin-to">بر اساس بازدیدهای شما</div>
+                </div>
+                <div class="c-some_product-slide_container">
+                    <div class="row">
+                        <a class="c-some_product-img col-sm-6">
+                            <img src="Images/someproduct/13.jpg" />
+                        </a>
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/14.jpg" />
+                        </a>
+                    </div>
+                    <div class="row c-bottom_half">
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/15.jpg" />
+                        </a>
+                        <a class="c-some_product-img  col-sm-6">
+                            <img src="Images/someproduct/16.jpg" />
+                        </a>
+                    </div>
+                    <span class="c-products_seeall">مشاهده</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class=" c-more_sale-container">
+            <div class="c-more_sale">
+                <div class="c-more_sale-header js-more_sale-header">
+                    <div class="c-more_sale-header_title js-more_sale-header_title">پرفروش‌ترین کالاها</div>
+                    <a class="c-more_sale-seeall">مشاهده همه</a>
+                </div>
+                <!-- Slider main container -->
+                <div class="swiper c-swiper_moresale js-more_sale-swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper c-sale_swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide c-sale_swiper-slide">
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/1.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱</div>
+                                        <span> هندزفری بلوتوثی مدل inpods 12</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/2.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۲</div>
+                                        <span>شکر سفید کامکا - یک کیلو گرم</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/3.jpg" />
+                                </div>
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۳</div>
+                                        کنسرو ماهی تون در روغن طبیعی
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide c-sale_swiper-slide">
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/4.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۴</div>
+                                        <span>مایع ظرفشویی پریل مدل Lavender حجم 3.75 لیتر</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/5.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۵</div>
+                                        <span>مایع ظرفشویی پریل مدل Lemone حجم 3.75 لیتر</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/6.jpg" />
+                                </div>
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۶</div>
+                                        پوشک بچه هانیز سایز 4 بسته 38 عددی
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide c-sale_swiper-slide">
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/7.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۷</div>
+                                        <span>هدفون بی‌سیم مدل BTH-f9-5</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/8.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۸</div>
+                                        <span> برنج نیم دانه طارم گلستان مقدار نیم کیلو گرم  </span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/9.jpg" />
+                                </div>
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۹</div>
+                                        <span>مایع لباس پرسیل Deep Clean با رایحه‌ی لوندر وزن 2.7 کیلو گرم</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide c-sale_swiper-slide">
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/10.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۰</div>
+                                        <span>شامپو سیر پرژک حجم 450 میلی‌لیتر</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/11.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۱</div>
+                                        <span>اسباگتی قطر 1.2 زرماکارون مقدار 700 گرم</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/12.jpg" />
+                                </div>
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۲</div>
+                                        رول ضد تعریق مردانه شون مدل Black Forest 50میلی‌لیتر
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide c-sale_swiper-slide">
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/13.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۳</div>
+                                        <span> کنسرو ماهی تون مکنزی در روغن گیاهی</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/14.png" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۴</div>
+                                        <span>زعفران درجه یک مصطفوی، مقدار 4 گرم</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/15.jpg" />
+                                </div>
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۵</div>
+                                        خیارشور سالی 1.5 کیلوگرم
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide c-sale_swiper-slide">
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/16.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۶</div>
+                                        <span>پوشک مولفیکس سایز 4 بسته 50 عددی</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/17.jpg" />
+                                </div>
+
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۷</div>
+                                        <span>پد آرایش پاک کن ایپک مدل 01 بسته 70 عددی</span>
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="c-sale_swiper-slide_item">
+                                <div class="c-sale_swiper-slide_img">
+                                    <img src="Images/mostsale/18.jpg" />
+                                </div>
+                                <div class="c-sale_about">
+                                    <div class="c-sale_product-name">
+                                        <div class="c-sale_number">۱۸</div>
+                                        گوشی موبایل نوکیا مدل T125 1253 Ds Fa
+                                        <hr class="c-sale_hr" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="c-btn_more-sale_prev js-btn_more-sale_prev d-none d-sm-block"></div>
+                    <div class="c-btn_more-sale_next js-btn_more-sale_next  d-none d-sm-block"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" style="margin-bottom:15px;">
+        <div>
+            <img src="Images/discountbanner/3.gif" style="width: 100%; border-radius: 10px;" />
+        </div>
+    </div>
+
+
+    <div class="container c-discount_sale-container">
+        <div class="c-discount_sale">
+            <div class="c-discount_sale-header">
+                <img src="Images/discountsale/discount.svg" />
+                <span>منتخب محصولات تخفیف و حراج</span>
+            </div>
+            <div class="c-discount_sale-content">
+                <div class="row c-discount_sale-products flex-sm-wrap flex-md-wrap js-discount_sale-products">
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/1.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/2.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/3.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰ تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/4.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/5.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/6.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/7.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/8.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/9.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/10.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/11.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/12.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/13.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/14.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/15.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/16.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/17.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="c-discount_sale-products_slide col-lg-2 col-md-2 col-sm-6">
+                        <div class="c-discount_sale-products_img">
+                            <img src="Images/discountsale/18.jpg" />
+                        </div>
+                        <div class="c-discount_sale-products_content">
+                            <span class="c-discount_sale-discountvalue">۲۵%</span>
+                            <div class="c-discount_sale-price">
+                                <span class="c-discount_sale-seconde_price">۲۹۹,۰۰۰تومان</span>
+                                <del class="c-discount_sale-first_price">۳۹۹,۰۰۰</del>
+                            </div>
+                        </div>
+                    </a>
+
+
+
+
+                </div>
+                <a class="text-center c-seeall">مشاهده همه</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container c-readmag_container">
+        <div class="c-readmag_container-header">
+            <div>خواندنی‌ها</div>
+            <a>مطالب بیشتر در دیجی‌مگ</a>
+        </div>
+        <div class="c-readmag_content flex-sm-wrap">
+            <div class="c-readmag_item col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="c-readmag_img">
+                    <div>
+                        <img src="Images/digimag/1.jpg" />
+                    </div>
+                    <div class="c-readmag_caption"> با ۱۵ اپلیکیشن کاربردی قفل برنامه در اندروید آشنا شوید</div>
+                </div>
+            </div>
+            <div class="c-readmag_item col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="c-readmag_img">
+                    <div>
+                        <img src="Images/digimag/5.jpg" />
+                    </div>
+                    <div class="c-readmag_caption">تجربه‌ی استفاده از مانیتور ام‌اس‌آی Modern MD271PW؛ نکات مثبت و منفی</div>
+                </div>
+            </div>
+            <div class="c-readmag_item col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="c-readmag_img">
+                    <div>
+                        <img src="Images/digimag/2.jpg" />
+                    </div>
+                    <div class="c-readmag_caption">چگونه به بیماری عفونی دچار می‌شویم؟ نگاهی علمی بر ساز و کار کلی بیماری‌ها</div>
+                </div>
+            </div>
+            <div class="c-readmag_item col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="c-readmag_img">
+                    <div>
+                        <img src="Images/digimag/4.png" />
+                    </div>
+                    <div class="c-readmag_caption">فوران‌های قدرتمند اعماق کیهان به شناسایی ماده پنهان اطراف کهکشان کمک می‌کنند</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid c-footer">
+        <div class="c-footer_header">
+            <div class="c-digi_logo">
+                <img src="Images/footer/digi.svg" />
+            </div>
+            <div class="c-btn_come-up js-btn_come-up">
+                برگشت به بالا
+                <div></div>
+            </div>
+        </div>
+        <div class="c-digi_phone-support">
+            <div>تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</div>
+            <div>۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</div>
+        </div>
+        <div class="c-digi_icons d-none d-sm-block">
+            <div class="c-digi_icon">
+                <div>
+                    <img src="Images/footer/1.svg" />
+                </div>
+                <span>امکان تحویل اکسپرس</span>
+            </div>
+            <div class="c-digi_icon">
+                <div>
+                    <img src="Images/footer/2.svg" />
+                </div>
+                <span>امکان پرداخت در محل</span>
+            </div>
+            <div class="c-digi_icon">
+                <div>
+                    <img src="Images/footer/3.svg" />
+                </div>
+                <span>۷ روز هفته، ۲۴ ساعته</span>
+            </div>
+            <div class="c-digi_icon">
+                <div>
+                    <img src="Images/footer/4.svg" />
+                </div>
+                <span>هفت روز ضمانت بازگشت کالا</span>
+            </div>
+            <div class="c-digi_icon">
+                <div>
+                    <img src="Images/footer/5.svg" />
+                </div>
+                <span>ضمانت اصل بودن</span>
+            </div>
+        </div>
+
+        <div class="c-digikala_informations text-right">
+            <ul class="c-digikala_list">
+                <li>
+                    <span>با دیجی‌کالا</span>
+                    <ul>
+                        <li>
+                            <a>
+                                اتاق خبر دیجی‌کالا
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+
+                                فروش در دیجی‌کالا
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                فرصت‌های شغلی
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                گزارش تخلف در دیجی‌کالا
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                تماس با دیجی‌کالا
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                درباره دیجی‌کالا
+                            </a>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+
+            <ul class="c-digikala_list">
+                <li>
+                    <span>خدمات مشتریان</span>
+                    <ul>
+                        <li>
+                            <a>
+                                پاسخ به پرسش‌های متداول
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                رویه‌های بازگرداندن کالا
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                شرایط استفاده
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                حریم خصوصی
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                گزارش باگ
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+            </ul>
+            <ul class="c-digikala_list">
+                <li>
+                    <span>راهنمای خرید از دیجی‌کالا</span>
+                    <ul>
+                        <li>
+                            <a>
+                                نحوه ثبت سفارش
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+
+                                رویه ارسال سفارش
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                شیوه‌های پرداخت
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+            </ul>
+
+            <ul class="c-digikala_list">
+                <li>
+                    <span>باما همراه باشید!</span>
+                </li>
+                <li>
+                    <div class="c-digikala_socialmedia">
+
+                        <a><img src="Images/footer/6.jpg" /></a>
+
+                        <a><img src="Images/footer/7.png" /></a>
+
+                        <a><img src="Images/footer/8.jpg" /></a>
+
+                        <a><img src="Images/footer/9.png" /></a>
+                    </div>
+                </li>
+                <li style="margin-top:30px;">
+                    <span>
+                        با ثبت ایمیل، از جدید‌ترین تخفیف‌ها با‌خبر شوید.
+                    </span>
+                    <form>
+                        <input class="c-input_email" type="text" placeholder="ایمیل شما" />
+                        <button class="c-btn_email">ثبت</button>
+                    </form>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div class="c-digikala_applications">
+            <div class="c-digikala_applications-icon_title">
+                <div class="c-digikala_applications-icon">
+                    <div>
+                        <img src="Images/footer/footerlogo2.png" />
+                    </div>
+                </div>
+                <div class="c-digikala_applications-title"> دانلود اپلیکیشن دیجی‌کالا</div>
+            </div>
+            <div class="c-digikala_applications-socialmedia">
+                <div>
+                    <img src="Images/footer/google-play.svg" />
+                </div>
+                <div>
+                    <img src="Images/footer/coffe-bazzar.svg" />
+                </div>
+                <div>
+                    <img src="Images/footer/myket.svg" />
+                </div>
+                <div>
+                    <img src="Images/footer/sib-app.svg" />
+                </div>
+                <a class="c-digikala_applications_more">
+
+                </a>
+            </div>
+        </div>
+
+        <hr class="c-footer_hr" />
+
+        <div class="c-footer_discription">
+            <div class="c-footer_discription-passages js-discription_footer">
+                <h1 class="c-footer_discription-passages_title">فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین</h1>
+                <p>یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت مناسب را در مدت زمانی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد؛ ویژگی‌هایی که فروشگاه اینترنتی دیجی‌کالا سال‌هاست بر روی آن‌ها کار کرده و توانسته از این طریق مشتریان ثابت خود را داشته باشد.</p>
+                <div class="c-footer_discription-passages_content js-passage_content" style="display:none;">
+                    <h1 class="c-footer_discription-passages_title">کدام محصولات در دیجی‌کالا قابل سفارش هستند؟</h1>
+                    <p>تقریبا می‌توان گفت محصولی وجود ندارد که دیجی‌کالا برای مشتریان خود در سراسر کشور فراهم نکرده باشد. شما می‌توانید در تمامی روزهای هفته و تمامی شبانه روز یا در روزهای خاصی مثل حراج شگفت انگیز دیجی‌کالا که محصولات دارای تخفیف عالی می‌شوند، سفارش خود را به سادگی ثبت کرده و در روز و محدوده زمانی مناسب خود، درب منزل تحویل بگیرید. بعضی از گروه‌های اصلی و زیر مجموعه‌های پرطرفدار محصولات دیجی‌کالا شامل مواردی می‌شود که در ادامه به معرفی آن‌ها می‌پردازیم.</p>
+                    <h1>کالای دیجیتال</h1>
+                    <p>انواع گوشی موبایل از برندهای مختلفی مثل آیفون،  گوشی سامسونگ، گوشی نوکیا، گوشی شیائومی، گوشی هواوی، و...، انواع کنسول بازی ps4 و ps5، انواع تبلت‌های پرطرفدار مثل تبلت سامسونگ نوت 10، انواع هندزفری مثل هندزفری بی سیم، تلوزیون از برندهای مختلف مثل تلویزیون سامسونگ، سونی و...، انواع مانیتور، کیس، کیبورد، مودم از برندهای مختلف مثل مودم ایرانسل، آنتن و ... تنها بخشی از محصولاتی هستند که زیر مجموعه کالای دیجیتال در دیجی‌کالا قرار دارند.</p>
+                    <h1>خودرو، ابزار و تجهیزات صنعتی</h1>
+                    <p>انواع خودروهای ایرانی و خارجی از برندهای مطرحی مثل هوندا، کیا و...، موتور سیکلت از برندهایی مثل کویر موتور و...، لوازم جانبی خودرو مثل سیستم صوتی تصویر، ضبط و...، لوازم یدکی مثل دیسک و صفحه کلاج و... و لوازم مصرفی خودرو مثل کفپوش سانا در این گروه قرار می‌گیرند.</p>
+                    <h1>مد و پوشاک</h1>
+                    <p>محصولاتی مثل انواع لباس مثل لباس مجلسی زنانه و مردانه، لباس راحتی، لباس ورزشی، اکسسوری، کیف، کفش، عینک آفتابی، لباس زیر، شال و روسری و... جزو مواردی هستند که می‌توانید آن‌ها را از برندهای مطرح ایرانی و خارجی موجود در دیجی کالا مثل آدیداس، نایکی، دبنهامز، آلدو، درسا و... خریداری کنید.</p>
+                    <h1>اسباب بازی کودک و نوزاد</h1>
+                    <p>در این دسته از کالاهای دیجی‌کالا، انواع لوازم بهداشتی و حمام کودک و نوزاد، انواع پوشاک و کفش، تبلت، اسباب‌بازی، لوازم اتاق خواب کودک، لوازم ایمنی، لوازم شخصی و غذا خوری و ... قرار می‌گیرد تا خرید را برای پدر و مادرها به کاری سریع و آسان تبدیل کند.</p>
+                    <h1>کالاهای سوپر مارکتی</h1>
+                    <p>هر چیزی از مواد خوراکی که به آن نیاز دارید، در سوپرمارکت دیجی‌کالا پیدا می‌شود، محصولات پرطرفداری مثل کره بادام‌زمینی، عسل، سس، قهوه، زعفران، شکلات، انواع نان و ... از برندهای معتبر و معروفی مثل نستله، نوتلا، استارباکس، مزمز، چی توز و ... همگی در اختیار شما هستند و تا رسیدن به آشپزخانه شما تنها چند کلیک فاصله دارند.</p>
+                    <h1>زیبایی و سلامت</h1>
+                    <p>انواع لوازم آرایش مثل لاک، رنگ مو، لوازم آرایش لب، چشم، صورت و... همگی در دیجی‌کالا موجود هستند. همچنین محصولات بهداشتی مثل انواع شامپو، کرم، ماسک صورت، ضد تعریق، ماسک مو  و...، انواع لوازم شخصی برقی، ست هدیه، بهترین انواع عطر و اسپری، انواع زیورآلات طلا و نقره مثل سرویس طلا، سرویس نقره و... به همراه وسایل مراقبت شخصی طبی در گروه زیبایی و سلامت دیجی‌کالا قرار می‌گیرد. در این بخش برندهای مطرحی مثل اسنس، پنبه ریز، سینره و... حضور دارند.</p>
+                    <h1>خانه و آشپزخانه</h1>
+                    <p>یکی از متنوع‌ترین بخش‌های دیجی‌کالا، بخش لوازم خانه و آشپزخانه است که از محصولاتی مثل صندلی گیمینگ در بخش صندلی‌ها گرفته تا انواع مبل راحتی، انواع آبگرمکن مثل آبگرمکن بوتان، لباسشویی‌های متنوع مثل انواع لباسشویی اسنوا، شیرآلات مختلف مثل شیرآلات قهرمان و...، ظروف و همچنین لوازم برقی آشپزخانه مثل توستر و... را شامل می‌شود و امکان خریدی عالی را برای مشتریان فراهم کرده است. در بخش لوازم خانگی دیجی‌کالا، برندهای معتبری مثل تفال، اخوان، فیلیپس، ال جی، اسنوا، جی پلاس و... حضور دارند.</p>
+                    <h1>کتاب، لوازم تحریر و هنر</h1>
+                    <p>بخش هنر، کتاب، رمان و لوازم تحریر دیجی‌کالا نیز یکی از متنوع‌ترین بخش‌های این فروشگاه اینترنتی است. انواع کتاب و مجله، بازی، لوازم تحریر، سازهایی مثل پیانو، سنتور، هنگ درام  و... با بهترین قیمت‌ها و از بهترین برندها در دسترس شما قرار دارند.</p>
+                    <h1>ورزش و سفر</h1>
+                    <p>هر نوع وسیله و لباس ورزشی که فکرش را کنید، انواع وسایل کمپینگ و کوهنوردی، ساک و قمقمه ورزشی و... در این بخش قرار می‌گیرند. همچنین شما می‌توانید وسایل مد نظر خود را بر اساس نوع ورزش (آبی، هوازی، بدنسازی و...) در دسته‌بندی‌های دیجی‌کالا پیدا کنید.</p>
+                    <h1>محصولات بومی و محلی</h1>
+                    <p>
+                        و در آخر دیجی‌کالا از طریق به فروش رساندن محصولات بومی و سنتی متفاوتی مثل انواع خوراکی، گلیم و گبه، ابزار و ... تلاش کرده تا بین هنر ایرانی و متقاضیان آن کوتاه‌ترین راه را پیدا کند. در این بخش شما می‌توانید انواع محصولات از جمله ظروف زیبای مخصوص به سفره هفت‌سین  و پذیرایی از مهمانان در روزهای نوروز، انواع آیینه و شمعدان و هر آن چیزی را که برای خلق زیبایی در روزهای بهاری به آن نیاز دارید، با قیمت مناسب و تنوع بسیار بالا انتخاب کنید. دیجی‌کالا همچنین برای اینکه حال و هوای عید را به اعضای خود هدیه کند، تقویم ۱۴۰۱، انواع ایده عکس پروفایل عید نوروز، آهنگ‌های عید نوروز و موزیک‌های شاد بهاری، وسایل مربوط به خانه‌تکانی و انواع لباس های عید  را برای شما فراهم کرده است تا بتوانید در کنار خرید خود، از این حال و هوای تازه نهایت لذت را ببرید.
+
+                        <br /><br />
+                        در راستای توجه ویژه به شفافیت به عنوان یکی از اصلی‌ترین ارزش‌های محوری دیجی‌کالا، با شروع سال ۱۳۹۸ داستان‌پردازی با داده‌های آماری و ارائه گزارش‌های سالانه آغاز شد. مسیری که دستاورد آن تا امروز چندین گزارش سالانه و تخصصی مثل گزارش سالانه ۱۳۹۸، گزارش سالانه ۱۳۹۹ و گزارش سالانه ۱۴۰۰  دیجی‌کالا هستند. علاوه بر این، گزارش منابع انسانی سال ۱۳۹۹، گزارش منابع انسانی سال ۱۴۰۰  و همچنین گزارش کتاب دیجی‌کالا، از دیگر گزارش‌های تخصصی دیجی‌کالا به حساب می‌آیند. انتشار این گزارش‌ها امکان رصد شفاف‌تر و دقیق‌تر خدمات دیجی‌کالا را فراهم می‌کند، وضعیت بازار آنلاین کشور را به نمایش می‌گذارد و به تمامی کسب‌وکارهای ایرانی کمک می‌کند تا با فرایندهای فروش و عرضه آنلاین کالاهای خود بیشتر آشنا شوند.
+                    </p>
+                </div>
+                <span class="c-see_more js-see_more">مشاهده بیشتر</span>
+            </div>
+            <div class="c-footer_discription-enamd j-enamad">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <hr class="c-footer_hr" />
+
+        <p class="c-copyright_text">برای استفاده از مطالب دیجی‌کالا، داشتن «هدف غیرتجاری» و ذکر «منبع» کافیست. تمام حقوق اين وب‌سايت نیز برای شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) است.</p>
+
+
+
+    </div>
+
+    <div class="c-footer_brand-logo">
+        <div>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/digiMehr.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/magnet.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/jet.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/digistyle.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/digipay.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/digimag.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/digikala-business.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/fidibo.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/digiclub.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/digiplus.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/komoda.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/pindo.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/diginext.svg" />
+            </a>
+            <a class="c-footer_brand-icon js-footer_brand-icon">
+                <img src="Images/footer/brandlogo/ganjeh.svg" />
+            </a>
+            <a class="c-footer_brand-icon c-digi_express js-digi_express">
+                <img src="Images/footer/brandlogo/digiexpress.svg" />
+            </a>
+            <a class="c-footer_brand-icon c-digiaffiliate js-digiaffiliate">
+                <img src="Images/footer/brandlogo/digiaffiliate.svg" />
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <script src="Js/jquery.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/swiper.min.js"></script>
+    <script src="Js/Main.js"></script>
+</body>
+</html>
