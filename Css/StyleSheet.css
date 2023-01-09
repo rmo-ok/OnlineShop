@@ -655,8 +655,8 @@ body {
     display: inline-table;
     flex-direction: column;
     flex-basis: 15%;
-    min-width: 13%;
-    border-left: 1px solid #f3f3f3;
+    min-width: 13.3%;
+    border-left: 1px solid #f5f5f5;
     z-index:10;
 }
     .c-category_list li:hover{
