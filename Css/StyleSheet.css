@@ -675,8 +675,7 @@ body {
     min-width: 86%;
     position: absolute;
     left: 0;
-    z-index: 10;
-    /* right: 207px; */
+    z-index: 10; 
     background-color: #fff;
     top: 43px;
 }
