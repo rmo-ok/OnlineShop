@@ -26,7 +26,16 @@
     }
 
     ShowSearchResult();
-  
+  ///drop down category in navbar
+function Show_Categories() {
+    //$('.js-category_active').hover(function () {
+    //    $('.js-category-container').css("display", "block");
+    //}, function () {
+    //    $('.js-category-container').css("display", "none");
+    //}) 
+}
+Show_Categories();
+/////////////////////////////
     function Main_Swiper() {
 
         const mainswiper = new Swiper('.js-mainswiper', {

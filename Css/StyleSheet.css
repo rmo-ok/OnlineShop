@@ -645,8 +645,11 @@ body {
 
 .c-category-container {
     display: flex;
+    height:513px;
+    background-color:#fff;
+    /*display:none;*/
 }
-
+    
 .c-category_list {
     background-color: #fff;
     position: absolute;
