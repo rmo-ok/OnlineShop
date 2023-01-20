@@ -643,13 +643,26 @@ body {
         font-weight: 600;
     }
 
+.c-cover {
+  position:fixed;
+  background-color:rgb(79,79,79,.43);
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  z-index:15
+}
+
 .c-category-container {
     display: flex;
-    height:513px;
-    background-color:#fff;
-    /*display:none;*/
+    height: 510px;
+    background-color: #fff;
+    display:none;
+    width:100%;
 }
-    
+
 .c-category_list {
     background-color: #fff;
     position: absolute;
@@ -691,7 +704,7 @@ body {
     z-index: 10;
     background-color: #fff;
     top: 43px;
-    height: 513px;
+    height: 507px;
     padding: 5px 15px 0 0;
 }
 

@@ -28,11 +28,11 @@
     ShowSearchResult();
   ///drop down category in navbar
 function Show_Categories() {
-    //$('.js-category_active').hover(function () {
-    //    $('.js-category-container').css("display", "block");
-    //}, function () {
-    //    $('.js-category-container').css("display", "none");
-    //}) 
+    $('.js-category_active,.js-category-container').hover(function () {
+        $('.js-category-container').css("display", "block");
+    }, function () {
+        $('.js-category-container').css("display", "none");
+    }) 
 }
 Show_Categories();
 /////////////////////////////
