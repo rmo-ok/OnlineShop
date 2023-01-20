@@ -30,8 +30,10 @@
 function Show_Categories() {
     $('.js-category_active,.js-category-container').hover(function () {
         $('.js-category-container').css("display", "block");
+        $('.js-cover').css("display", "block");
     }, function () {
         $('.js-category-container').css("display", "none");
+        $('.js-cover').css("display", "none");
     }) 
 }
 Show_Categories();
