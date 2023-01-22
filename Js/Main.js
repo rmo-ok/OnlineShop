@@ -36,7 +36,7 @@ function Show_Categories() {
         $('.js-cover').css("display", "none");
     }) 
 }
-Show_Categories();
+/*Show_Categories();*/
 /////////////////////////////
     function Main_Swiper() {
 
